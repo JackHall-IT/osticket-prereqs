@@ -260,3 +260,48 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
+20.) Once that is done we will continue to setup osTicket in the browser. Click continue on the osTicket browser page. Fill out the page as required except the database settings at the bottom of the page. We will get to that later.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+21.) For now we will want to download and install HeidiSQL from the installation files.
+    - When the program is open we will create a new session in it.
+    - We want to make sure the username is root and the password is root
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+22.) We will now create a new database within HeidiSQL. In Heidi right click on the left side where it says "Unnamed", select create new, and then select database. Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL database type in osTicket.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+23. Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database settings in the browser the username will be "Root" and the password will be "root" with the database also being osTicket. And then finally click install now.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
