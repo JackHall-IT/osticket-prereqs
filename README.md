@@ -147,3 +147,7 @@ As for the root password, just type in root. And finally click execute on it's a
 <p>
 
 - Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar and then open it AS AN ADMINISTRATOR.
+- Next click on PHP Manager and register new PHP version. We'll want to provide a path to the php executable file to we'll be going to C drive, Php, and click on the php-cgi file.
+Once that's done we'll restart the IIS server.
+- We'll now want to install osTicket v1.15.8, download osTicket from the installation files folder, extract and copy the "upload' folder to C:\inetpub\wwwroot then from within this folder rename "upload" into "osTicket" and have it spelled that exact way.
+Then we'll reload IIS again.
