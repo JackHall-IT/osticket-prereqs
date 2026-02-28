@@ -32,5 +32,3 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 - First off you'll need to set up an Azure Resource Group and a Virtual Machine (VM). For this I'll be using Windows 10 Enterprise version 22H2 x64 Gen2.
-
-  - [ Insert Image here ]
