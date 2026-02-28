@@ -30,5 +30,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Link to downloads: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <h2>Installation Steps</h2>
+
 - First off you'll need to set up an Azure Resource Group and a Virtual Machine (VM). For this I'll be using Windows 10 Enterprise version 22H2 x64 Gen2. Once you have created your resource group and your virtual machine you'll have to turn on the VM if it's turned off then log into it.
-- Now that your in the VM you'll want to open control panel, go to programs, turn Windows features on or off, and then enable Internet Information Services, Web Management Tools, World Wide Web Services. Next up open World Wide Web Services and enable Application Development Features, Common HTTP Features (Make sure everything within this is checked), Health and Diagnostics, Performance Features, and Security. And finally open up Application Development Features and check off CGI. Now hit okay and wait for the changes to happen, if everything is installed and enabled correctly then if you go to your browser of choice and search for 127.0.0.1 it should open up to this page.
+- Now that your in the VM you'll want to open control panel, go to programs, turn Windows features on or off, and then enable Internet Information Services, Web Management Tools, World Wide Web Services.
+- Next up open World Wide Web Services and enable Application Development Features, Common HTTP Features (Make sure everything within this is checked), Health and Diagnostics, Performance Features, and Security.
+- And finally open up Application Development Features and check off CGI. Now hit okay and wait for the changes to happen, if everything is installed and enabled correctly then if you go to your browser of choice and search for 127.0.0.1 it should open up to this page.
