@@ -66,7 +66,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-4.) And finally open up Application Development Features and check off CGI. Now hit okay and wait for the changes to happen, if everything is installed and enabled correctly then if you go to your browser of choice and search for 127.0.0.1 it should open up to this page.
+4.) And finally open up Application Development Features and turn on CGI. Now hit okay and wait for the changes to happen, if everything is installed and enabled correctly then if you go to your browser of choice and search for 127.0.0.1 it should open up to this page.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
