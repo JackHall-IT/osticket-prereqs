@@ -79,7 +79,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p></p>
 
-5.) Now that Internet Information Services, or IIS for short, is enabled we'll be downloading and installing everything we need from within the Google Drive.
+5.) Now that Internet Information Services, or IIS for short, is enabled we'll be downloading and installing everything we need from within the Google Drive. When you download the files from the google drive extract the contents into a folder.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -112,7 +112,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-8.) Now create a folder in the C drive called PHP and from the installation files download PHP 7.3.8 and unzip it's contents into C:\PHP
+8.) Now create a folder in the C drive called PHP and from the installation files extract PHP 7.3.8 and unzip it's contents into C:\PHP
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -123,7 +123,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe and go through the setup wizard for it.
+9.) Once you have extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe and go through the setup wizard for it.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -134,7 +134,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-10.) And finally download and install MySQL 5.5.62 and run the setup wizard, this one I'll have to guide you through for this. Select Typical Setup, Launch Configuartion Wizard (after it installs), then Standard Configuration.
+10.) And finally download and install MySQL 5.5.62 and run the setup wizard. Select Typical Setup, Make sure the Launch the Configuartion Wizard is checked, then Standard Configuration.
   - As for the root password, just type in root. And finally click execute on it's all done.
 
 <p>
@@ -171,8 +171,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
 
-13.) We'll now want to install osTicket v1.15.8, download osTicket from the installation files folder, extract and copy the "upload' folder to C:\inetpub\wwwroot then from within this folder rename "upload" into "osTicket" and have it spelled that exact way.
-  - Then we'll reload IIS again.
+13.) We'll now want to install osTicket v1.15.8, extract osTicket and copy the "upload' folder to C:\inetpub\wwwroot then from within this folder rename "upload" into "osTicket" and have it spelled that exact way.
+  - Then we'll restart IIS again.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -184,7 +184,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
 
-14.) On IIS go to sites, default , osTicket, on the right, click Browse :80
+14.) On IIS go to sites, default Web Site, osTicket, on the right, click Browse :80. This will take you to the osTicket installer page.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -196,7 +196,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
 
-15.) Some extensions are not enabled on the osTicket Browser so to enable said extensions go back to IIS, sites, default, osTicket, double click PHP manager and click Enable or disable an extension. We will want to enable three extensions from here. php_imap.dll, php_intl.dll, and php_opcache.dll
+15.) Some extensions are not enabled on the osTicket Browser so to enable said extensions go back to IIS, sites, default, osTicket, click PHP manager then click Enable or disable an extension. We will want to enable three extensions from here. php_imap.dll, php_intl.dll, and php_opcache.dll
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -232,7 +232,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
 
-18.) Now that we have renamed the files, right click on the file and go to properties. From there click security, click on advance, and disable the inheritance. We will select Remove all inherited permissions from this object.
+18.) Now that we have renamed the files, right click on the file and go to properties. From there click security, click on advanced, and disable the inheritance. We will select Remove all inherited permissions from this object.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -260,7 +260,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-20.) Once that is done we will continue to setup osTicket in the browser. Click continue on the osTicket browser page. Fill out the page as required except the database settings at the bottom of the page. We will get to that later.
+20.) Once that is done we will continue to setup osTicket in the browser. Click continue on the osTicket browser page. Fill out the page as required except the database settings at the bottom of the page.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -271,9 +271,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-21.) For now we will want to download and install HeidiSQL from the installation files.
+21.) For now we will want to download and install HeidiSQL from the installation files. Click skip on the update page.
     - When the program is open we will create a new session in it.
-    - We want to make sure the username is root and the password is root
+    - We want to make sure the username is root and the password is root. Then click open.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -284,7 +284,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-22.) We will now create a new database within HeidiSQL. In Heidi right click on the left side where it says "Unnamed", select create new, and then select database. Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL database type in osTicket.
+22.) We will now create a new database within HeidiSQL. In Heidi right click on the left side where it says "Unnamed", select create new, and then select database. Name the new database osTicket.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
