@@ -44,7 +44,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 2.) Now that your in the VM you'll want to open control panel, go to programs, turn Windows features on or off, and then enable Internet Information Services, Web Management Tools, World Wide Web Services.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KUIeDfn_d.png?maxwidth=520&shape=thumb&fidelity=high" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
