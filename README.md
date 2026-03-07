@@ -63,46 +63,27 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/76Fxgtm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p>
-<img src="https://i.imgur.com/niSlJYe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 
 3.) Next up open World Wide Web Services and enable Application Development Features, Common HTTP Features (Make sure everything within this is checked), Health and Diagnostics, Performance Features, and Security.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/niSlJYe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/twvmFDD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 
 4.) And finally open up Application Development Features and turn on CGI. Now hit okay and wait for the changes to happen, if everything is installed and enabled correctly then if you go to your browser of choice and search for 127.0.0.1 it should open up to this page.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BDOAyNQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jjtgm6V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
