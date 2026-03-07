@@ -249,7 +249,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - select a principal
     - type "Everyone" in the box
     - Make sure full control and all the other boxes are check
-    - click and ok.
+    - click ok.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
