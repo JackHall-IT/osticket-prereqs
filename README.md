@@ -92,55 +92,51 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 5.) Now that Internet Information Services, or IIS for short, is enabled we'll be downloading and installing everything we need from within the Google Drive. When you download the files from the google drive extract the contents into a folder.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/G2AaKnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-6.) First off you'll download and install PHP Manager for IIS, next we'll go through the install wizard and complete the install.
+6.) First off you'll download and install PHP Manager for IIS and go through the install wizard.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Gcbhz5B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 7.) Now that we're done with that, next up we'll be installing the Rewrite Module and go through it's installation.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/r1NBZKk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 8.) Now create a folder in the C drive called PHP and from the installation files extract PHP 7.3.8 and unzip it's contents into C:\PHP
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KAMjQUy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6xMProl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/CbthUQ8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/Ca2VBpV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/M3E46sw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/XrrQp6J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-9.) Once you have extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe and go through the setup wizard for it.
+9.) Once you have extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe and go through the install wizard for it.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dJqUfUD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -148,31 +144,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - As for the root password, just type in root. And finally click execute on it's all done.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AVpqb85.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3hyNay0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vRBe7iv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DqMJ8Vs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/zgk1o9w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 11.) Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar and then open it AS AN ADMINISTRATOR.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BixG41H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 
 
@@ -180,19 +176,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Once that's done we'll restart the IIS server.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3Rh7fRK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uEhnZOo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6JK6ZKm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pW0zfPM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
